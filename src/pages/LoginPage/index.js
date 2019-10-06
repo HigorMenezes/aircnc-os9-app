@@ -13,7 +13,7 @@ function LoginPage({ navigation }) {
   useEffect(() => {
     AsyncStorage.getItem("user").then(user => {
       if (user) {
-        navigation.navigate("ListPage");
+        // navigation.navigate("ListPage");
       }
     });
   }, []);
